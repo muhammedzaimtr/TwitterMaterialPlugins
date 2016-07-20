@@ -23,7 +23,7 @@
   "content_scripts": [{
     "matches": [
       "*://twitter.com/*",
-    "*://www. twitter.com/*"
+    "*://www.twitter.com/*"
   ],
     "css": [
       "/style1.css"
