@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Material Plugins - Muhammed Zaim",
+  "short_name": "T.M.P - M.Z",
+  "version": "1.1",
+  "description": "Twitter'ı material tasarıma geçirmenin tam zamanı.",
+
+  "permissions": [
+    "*://twitter.com/*",
+    "*://www.twitter.com/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Twitter Material Plugins - Muhammed Zaim"
+  },
+
+  "content_scripts": [{
+    "matches": [
+      "*://twitter.com/*",
+    "*://www. twitter.com/*"
+  ],
+    "css": [
+      "/style1.css"
+    ]
+  }]
+}

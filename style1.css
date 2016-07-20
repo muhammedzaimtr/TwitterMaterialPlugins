@@ -1,0 +1,19 @@
+* {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.global-nav, .topbar{
+    border-bottom: none !important;
+}
+
+.topbar .js-topbar, .DashboardProfileCard, .Trends, .ProfileCanopy-navBar, .navigation, .dropdown-menu , .Trends, .module, .trends, .global-nav-inner, .ProfileAvatar, .content-main, .WhoToFollow {
+    box-shadow: 2px 2px 25px #ccc !important;
+}
+
+.top-timeline-tweetbox .timeline-tweet-box, .trends-inner, #global-new-tweet-button, .u-cf, .AppContent-main{
+    border:none !important;
+    border-radius: none !important;
+    box-shadow: none !important;
+}
+
